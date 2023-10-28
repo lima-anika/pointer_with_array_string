@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+	int *ptr,x;
+	
+	ptr=&x;
+	
+	x=27;
+	
+	printf("X r value %d\n",x);
+	
+	printf("X r address %d\n",&x);
+	
+	printf("ptr r value %d\n",ptr);
+	
+	printf("ptr r address %d\n",&ptr);
+	
+	
+	
+}
